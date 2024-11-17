@@ -1,6 +1,7 @@
 // src/components/JobList.js
 import React from 'react';
 import JobCard from './JobCard';
+import { Link } from 'react-router-dom';
 
 const JobList = () => {
   const jobs = [

@@ -1,6 +1,7 @@
 // src/components/Header.js
 import React from 'react';
 import './Header.css';  // You can add your own CSS to style
+import { Link } from 'react-router-dom';
 
 const Header = () => {
   return (

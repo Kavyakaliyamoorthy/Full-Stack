@@ -1,6 +1,7 @@
 // src/components/JobCard.js
 import React from 'react';
 import './JobCard.css';  // Add your own CSS styling
+import { Link } from 'react-router-dom';
 
 const JobCard = ({ job }) => {
   return (
